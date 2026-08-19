@@ -1,0 +1,37 @@
+Who are the top 5 artists with the most tracks in the database?
+What is the total sales revenue generated from customers in USA versus Canada?
+Find the top 5 highest-spending customers. Show their full name, country, total amount spent, and the name of their support representative.
+
+What's the best training strategy to prepare for a half marathon in 8 weeks?
+Can you write a Python script using pandas to clean duplicate rows in a CSV file?
+Which record label published Queen's 'News of the World' album, and what was its original release year?
+
+What is the unit price of the track "Collaborators"?
+Update the unit price of the track "Collaborators" to 1.50
+What is the unit price of the track "Collaborators" now?
+
+Add a new artist named 'The Midnight' to the database.
+Search for the artist named 'The Midnight' and return their ArtistId and Name.
+Can you remove the artist record from the database?
+Does an artist named 'The Midnight' still exist in the database?
+
+Add a new customer named 'Alex Mercer' from 'Chicago, USA' with email 'alex.mercer@example.com'.
+Find the customer named 'Alex Mercer' and show their CustomerId, Email, and City.
+Delete the customer 'Alex Mercer' with email 'alex.mercer@example.com'.
+Check if there are any customers with the email 'alex.mercer@example.com'.
+
+In a single transaction, create a new genre called 'Synthwave'. Then, add a new artist named 'Gunship'. If both actions succeed, commit the transaction.
+In a single transaction, delete the artist 'Gunship' and the genre 'Synthwave' from the database. If both deletions succeed, commit the transaction.
+
+Start a transaction to add a new artist 'Solar Fields'. Check if an artist with that name already exists. If it exists, roll back the transaction; otherwise, commit it.
+Delete the artist 'Solar Fields' from the database if they exist, and return the number of rows affected.
+
+Analyze our global customer purchasing behavior and genre preference trends with the following criteria:
+Identify all countries that have generated over $100 in total invoice sales.
+For each qualifying country, find the top 2 highest-spending customers.
+For each of those top customers, determine:
+Their total lifetime spend.
+Their most-purchased genre (by total track count bought).
+The percentage of their total spend dedicated to that top genre.
+Additionally, identify the top-selling artist in that specific genre within that customer's country.
+Output a structured breakdown showing: Customer Name, Country, Total Lifetime Spend, Favorite Genre, % Spend on Favorite Genre, and Country's Top Artist for that Genre.
