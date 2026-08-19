@@ -1,6 +1,5 @@
 from pathlib import Path
 import sqlite3
-import re
 
 from langchain_core.tools import tool
 
