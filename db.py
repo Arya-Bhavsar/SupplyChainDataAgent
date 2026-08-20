@@ -3,7 +3,7 @@ import sqlite3
 
 from langchain_core.tools import tool
 
-DB_PATH = Path(__file__).parent / "chinook.db"
+DB_PATH = Path(__file__).parent / "candy_distributor.db"
 
 @tool
 def get_schema() -> str:
