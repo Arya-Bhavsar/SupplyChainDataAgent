@@ -2,7 +2,7 @@ import os
 from dotenv import load_dotenv
 import warnings
 
-from db import get_schema, run_query
+from tools import get_schema, run_query
 from prompts import SQL_AGENT_INSTRUCTIONS
 
 from langchain_openai import ChatOpenAI
